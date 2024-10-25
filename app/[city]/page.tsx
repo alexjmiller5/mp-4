@@ -4,7 +4,7 @@ import { useParams } from "next/navigation";
 import useSWR from "swr";
 import WeatherCard from "../components/weatherCard";
 import styled from "styled-components";
-import { Weather } from "@app/interfaces/weather";
+import { Weather } from "@/interfaces/weather";
 
 const WeatherContentWrapper = styled.main`
 	width: 80vw;
